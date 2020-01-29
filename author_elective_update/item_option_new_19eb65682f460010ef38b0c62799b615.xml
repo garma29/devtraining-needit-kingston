@@ -84,9 +84,9 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=19eb65682f460010ef38b0c62799b615"/>
-    <fx_price action="delete_multiple" query="id=19eb65682f460010ef38b0c62799b615"/>
-    <fx_price action="INSERT_OR_UPDATE">
+    <sys_translated_text action="DELETE" query="documentkey=19eb65682f460010ef38b0c62799b615"/>
+    <fx_price action="DELETE" query="id=19eb65682f460010ef38b0c62799b615"/>
+    <fx_price action="DELETE">
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>price_if_checked</field>
@@ -103,7 +103,7 @@
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
-    <fx_price action="INSERT_OR_UPDATE">
+    <fx_price action="DELETE">
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>rec_price_if_checked</field>
